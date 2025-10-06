@@ -4,8 +4,6 @@ import React, { useEffect, useState } from "react";
 import productosData from "./data/productos";
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
-import HeroCarousel from "./components/HeroCarousel";
-import ProductGrid from "./components/ProductGrid";
 import ProductModal from "./components/ProductModal";
 import AppRoutes from './AppRoutes';
 
