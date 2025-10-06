@@ -1,2 +1,5 @@
+[phases.setup]
+nixPkgs = ["nodejs", "npm"]
+
 [phases.install]
-cmds = ["npm install"]
+cmds = ["rm -f package-lock.json && npm install"]
