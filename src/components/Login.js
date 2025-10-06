@@ -71,7 +71,7 @@ export default function Login({ onLogin }) {
           </button>
         </form>
         <div className="text-center mt-3 small">
-          ¿No tienes cuenta? <a href="#" style={{ color: "#a770ef", textDecoration: "underline" }}>Regístrate</a>
+          ¿No tienes cuenta? <button type="button" className="btn btn-link p-0" style={{ color: "#a770ef", textDecoration: "underline" }}>Regístrate</button>
         </div>
       </div>
     </div>
