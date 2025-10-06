@@ -18,7 +18,6 @@ export default function Login({ onLogin }) {
     if (onLogin) onLogin(email);
     else alert("¡Bienvenido/a " + email + "!");
   }
-
   return (
     <div className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh" }}>
       <div className="card shadow-lg p-4" style={{ maxWidth: 370, width: "100%", borderRadius: 18, background: "rgba(255,255,255,0.95)" }}>
